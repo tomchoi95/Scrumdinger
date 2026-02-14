@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8D1BE56D2F408BAD0034F94E /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D1BE56C2F408BAD0034F94E /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8D1BE5592F40802D0034F94E /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1BE56D2F408BAD0034F94E /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +37,8 @@
 		8D1BE5502F40802D0034F94E = {
 			isa = PBXGroup;
 			children = (
-				8D1BE55B2F40802D0034F94E /* Scrumdinger */,
 				8D1BE55A2F40802D0034F94E /* Products */,
+				8D1BE55B2F40802D0034F94E /* Scrumdinger */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				8D1BE56C2F408BAD0034F94E /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = 8D1BE5592F40802D0034F94E /* Scrumdinger.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 8D1BE5502F40802D0034F94E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8D1BE56B2F408BAD0034F94E /* XCLocalSwiftPackageReference "ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8D1BE55A2F40802D0034F94E /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8D1BE56B2F408BAD0034F94E /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D1BE56C2F408BAD0034F94E /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D1BE5512F40802D0034F94E /* Project object */;
 }
