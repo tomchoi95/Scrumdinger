@@ -33,7 +33,7 @@ struct ScrumsView: View {
             }
         }
         .sheet(isPresented: $isPresentingNewScrumView) {
-            
+            NewScrumSheet(scrums: $scrums)
         }
     }
 }
